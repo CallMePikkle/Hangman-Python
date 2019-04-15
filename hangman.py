@@ -1,5 +1,5 @@
 import random
-word = ("hello")
+word = (random.choice(list(open('dict.txt'))))
 def start ():
     print ('     _________     ')
     print ('     |/      \|    ')
