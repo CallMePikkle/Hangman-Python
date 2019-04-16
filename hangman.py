@@ -1,7 +1,6 @@
 import random
 from functions import *
-r = (random.choice(list(open('dict.txt'))))
-word = r[:-1]
+word = random.choice(list(open('dict.txt'))).rstrip('\n')
 guesses = ''
 turns = 6
 while turns > 0:         
